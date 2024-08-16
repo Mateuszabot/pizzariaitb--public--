@@ -1,4 +1,4 @@
-import React, { useSte, useEffect} from 'react'
+import React, { useState, useEffect} from 'react'
 
 const Listagem = () => {
 
@@ -8,4 +8,4 @@ const Listagem = () => {
     </>
     )
 }
-export default Listagem 
+export default Listagem ;

@@ -6,11 +6,11 @@ import Listagem from './pages/Listagem';
 const App = () => {
 
   const [color] = useState ("#0000ff")
-  
+  document.body.style.backgroundColor = color 
 
   return (
     <Routes> 
-      <Route path="/" /> 
+      <Route path="/" element={<Listtagem/>}/> 
     </Routes>
   )
 }
