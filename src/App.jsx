@@ -1,7 +1,7 @@
 import { useState} from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Listagem from './pages/Listagem';
+import Listagem from './pages/Listagem' ;
 
 const App = () => {
 
@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <Routes> 
-      <Route path="/" element={<Listtagem/>}/> 
+      <Route path="/" element={< Listagem/>}/> 
     </Routes>
   )
 }
